@@ -1,0 +1,67 @@
+-------------------START-------------4/9/2014 12:04:10 AM
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Invalid object name 'T_POLICY_DETAIL'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 105
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------4/9/2014 12:04:10 AM
+-------------------START-------------4/9/2014 12:09:18 AM
+Source Page : PolicyEntry.aspx
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 97
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------4/9/2014 12:09:18 AM
+-------------------START-------------4/9/2014 12:16:34 AM
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'POLICY_ID', table 'MilePostDB.dbo.T_POLICY_DETAILS'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at MilePost.Web.DataAccess.MilePostProvider.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 262
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 123
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in D:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 175
+-------------------END-------------4/9/2014 12:16:34 AM
+-------------------START-------------4/9/2014 12:27:57 AM
+Source Page : PolicyEnquiry.aspx
+System.Data.SqlClient.SqlException: Invalid column name 'APPROVER_ID_ACCTNG'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 220
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 102
+   at MilePost.PolicyEnquiry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEnquiry.aspx.cs:line 77
+-------------------END-------------4/9/2014 12:27:57 AM
+-------------------START-------------4/9/2014 12:28:49 AM
+Source Page : PolicyEnquiry.aspx
+System.Data.SqlClient.SqlException: Invalid column name 'APPROVER_ID_ACCTNG'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 220
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 102
+   at MilePost.PolicyEnquiry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEnquiry.aspx.cs:line 77
+-------------------END-------------4/9/2014 12:28:49 AM
+-------------------START-------------4/9/2014 12:30:18 AM
+Source Page : PolicyEnquiry.aspx
+System.Data.SqlClient.SqlException: Invalid column name 'APPROVER_ID_ACCTNG'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 220
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 102
+   at MilePost.PolicyEnquiry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEnquiry.aspx.cs:line 77
+-------------------END-------------4/9/2014 12:30:18 AM
+-------------------START-------------4/9/2014 12:41:38 AM
+Source Page : PolicyEnquiry.aspx
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 211
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 102
+   at MilePost.PolicyEnquiry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEnquiry.aspx.cs:line 77
+-------------------END-------------4/9/2014 12:41:38 AM
+-------------------START-------------4/9/2014 12:43:59 AM
+Source Page : PolicyEnquiry.aspx
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 211
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyEnquiry(PolicyDetailsBusinessEntity getPolicyEnquiry) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 102
+   at MilePost.PolicyEnquiry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEnquiry.aspx.cs:line 77
+-------------------END-------------4/9/2014 12:43:59 AM

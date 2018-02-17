@@ -1,0 +1,8 @@
+-------------------START-------------2/4/2014 12:28:07 PM
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Cannot open database "MilePostDB" requested by the login. The login failed.
+Login failed for user 'Satyam-PC\Satyam'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in D:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 105
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in D:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in D:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------2/4/2014 12:28:07 PM

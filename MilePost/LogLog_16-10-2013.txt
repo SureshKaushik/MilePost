@@ -1,0 +1,141 @@
+-------------------START-------------16-10-2013 AM 06:23:29
+Source Page : AccountApproval.aspx
+System.Data.SqlClient.SqlException: Invalid object name 'T_POLICY_DETAILS'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetAllApprovalDetails() in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 640
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetAllApprovalDetails() in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 218
+   at MilePost.AccountApproval.LoadGrid() in E:\Projects\Application\MilePost\MilePost\AccountApproval.aspx.cs:line 45
+-------------------END-------------16-10-2013 AM 06:23:29
+-------------------START-------------16-10-2013 AM 06:24:46
+Source Page : PolicyEntry.aspx
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 97
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 06:24:46
+-------------------START-------------16-10-2013 AM 07:15:42
+Source Page : PolicyEntry.aspx
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 98
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:15:42
+-------------------START-------------16-10-2013 AM 07:23:34
+Source Page : PolicyEntry.aspx
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 98
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:23:34
+-------------------START-------------16-10-2013 AM 07:24:42
+Source Page : PolicyEntry.aspx
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 98
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:24:42
+-------------------START-------------16-10-2013 AM 07:27:16
+Source Page : AccountApproval.aspx
+System.Data.SqlClient.SqlException: Invalid object name 'T_POLICY_DETAILS'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetAllApprovalDetails() in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 641
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetAllApprovalDetails() in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 218
+   at MilePost.AccountApproval.LoadGrid() in E:\Projects\Application\MilePost\MilePost\AccountApproval.aspx.cs:line 45
+-------------------END-------------16-10-2013 AM 07:27:16
+-------------------START-------------16-10-2013 AM 07:28:36
+Source Page : PolicyEntry.aspx
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 98
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:28:36
+-------------------START-------------16-10-2013 AM 07:30:22
+Source Page : PolicyEntry.aspx
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 98
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:30:22
+-------------------START-------------16-10-2013 AM 07:37:10
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Invalid object name 'T_POLICY_DETAILS'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 105
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:37:10
+-------------------START-------------16-10-2013 AM 07:38:35
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Invalid object name 'T_POLICY_DETAILS'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 105
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:38:35
+-------------------START-------------16-10-2013 AM 07:45:22
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Invalid object name 'T_POLICY_DETAILS'.
+   at MilePost.Web.DataAccess.MilePostProvider.GetPolicyDetails(UserInfoDetailsBusinessEntity infoDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 105
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetPolicyDetails(UserInfoDetailsBusinessEntity userInfoDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 46
+   at MilePost.PolicyEntry.LoadGrid() in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 44
+-------------------END-------------16-10-2013 AM 07:45:22
+-------------------START-------------16-10-2013 AM 08:58:58
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Could not find stored procedure 'INSERT_POLICY_DETAIL'.
+   at MilePost.Web.DataAccess.MilePostProvider.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 256
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 123
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 175
+-------------------END-------------16-10-2013 AM 08:58:58
+-------------------START-------------16-10-2013 AM 09:05:42
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'POLICY_ID', table 'MilePostDB.dbo.T_POLICY_DETAILS'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at MilePost.Web.DataAccess.MilePostProvider.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 262
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 123
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 175
+-------------------END-------------16-10-2013 AM 09:05:42
+-------------------START-------------16-10-2013 AM 09:12:11
+Source Page : PolicyEntry.aspx
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'APPROVER_ID_ACCTNG', table 'MilePostDB.dbo.T_POLICY_DETAILS'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at MilePost.Web.DataAccess.MilePostProvider.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 262
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.AddPolicyDetails(PolicyDetailsBusinessEntity addPolicyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 123
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 175
+-------------------END-------------16-10-2013 AM 09:12:11
+-------------------START-------------16-10-2013 AM 09:17:45
+Source Page : PolicyEntry.aspx
+System.ArgumentNullException: Value cannot be null.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at MilePost.Web.DataAccess.MilePostProvider.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 336
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 143
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 179
+-------------------END-------------16-10-2013 AM 09:17:45
+-------------------START-------------16-10-2013 AM 09:19:18
+Source Page : PolicyEntry.aspx
+System.ArgumentNullException: Value cannot be null.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at MilePost.Web.DataAccess.MilePostProvider.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 336
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 143
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 179
+-------------------END-------------16-10-2013 AM 09:19:18
+-------------------START-------------16-10-2013 AM 09:23:53
+Source Page : PolicyEntry.aspx
+System.ArgumentNullException: Value cannot be null.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at MilePost.Web.DataAccess.MilePostProvider.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 336
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 143
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 179
+-------------------END-------------16-10-2013 AM 09:23:53
+-------------------START-------------16-10-2013 AM 09:28:49
+Source Page : AccountApproval.aspx
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at MilePost.Web.DataAccess.MilePostProvider.GetAllApprovalDetails() in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 638
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.GetAllApprovalDetails() in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 218
+   at MilePost.AccountApproval.LoadGrid() in E:\Projects\Application\MilePost\MilePost\AccountApproval.aspx.cs:line 45
+-------------------END-------------16-10-2013 AM 09:28:49

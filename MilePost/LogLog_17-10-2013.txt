@@ -1,0 +1,11 @@
+-------------------START-------------17-10-2013 AM 06:03:03
+Source Page : PolicyEntry.aspx
+System.ArgumentNullException: Value cannot be null.
+Parameter name: fileName
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.LinkedResource..ctor(String fileName)
+   at MilePost.Web.DataAccess.MilePostProvider.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.DataAccess\MilePostProvider.cs:line 426
+   at MilePost.Web.BusinessLogic.MilePostBuzLogic.SendEmail(PolicyDetailsBusinessEntity policyDetails) in E:\Projects\Application\MilePost\MilePost.Web.BusinessLogic\MilePostBuzLogic.cs:line 143
+   at MilePost.PolicyEntry.btnSubmit_Click(Object sender, EventArgs e) in E:\Projects\Application\MilePost\MilePost\PolicyEntry.aspx.cs:line 179
+-------------------END-------------17-10-2013 AM 06:03:03
